@@ -1,9 +1,9 @@
 {
-	"name": "beardedicons",
-	"displayName": "Bearded Icons",
+	"name": "beardedicons-coloredfolders",
+	"displayName": "Bearded Icons with Colored Folders",
 	"description": "The icons with a long beard.",
 	"publisher": "BeardedBear",
-	"version": "1.6.0",
+	"version": "1.7.0",
 	"engines": {
 		"vscode": "^1.76.0"
 	},
