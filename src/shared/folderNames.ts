@@ -327,6 +327,7 @@ export default {
   util: "_fd_tools",
   utils: "_fd_tools",
   ".travis": "_fd_travis",
+  types: "_fd_typescript",
   typescript: "_fd_typescript",
   ts: "_fd_typescript",
   typings: "_fd_typings",

@@ -2,11 +2,11 @@ function icon(name: string): Record<string, { iconPath: string }> {
   return { [`_f_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
-function iconFolder(name: string): Record<string, { iconPath: string}> {
+function iconFolder(name: string): Record<string, { iconPath: string }> {
   return { [`_fd_${name}`]: { iconPath: `./icons/${name}.svg` } };
 }
 
-function iconFolderGeneric(name: string): Record<string, { iconPath: string}> {
+function iconFolderGeneric(name: string): Record<string, { iconPath: string }> {
   return { [`_fd_${name}`]: { iconPath: `./icons/folder_${name}.svg` } };
 }
 
