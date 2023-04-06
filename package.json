@@ -1,67 +1,66 @@
 {
-  "name": "beardedicons-coloredfolders",
-  "displayName": "Bearded Icons with Colored Folders",
-  "description": "The icons with a long beard.",
-  "publisher": "BeardedBear",
-  "version": "1.7.0",
-  "engines": {
-    "vscode": "^1.76.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BeardedBear/bearded-icons"
-  },
-  "bugs": {
-    "url": "https://github.com/BeardedBear/bearded-icons/issues",
-    "email": "germain.poirrier@gmail.com"
-  },
-  "homepage": "https://github.com/BeardedBear/bearded-icons",
-  "keywords": [
-    "bearded",
-    "icons"
-  ],
-  "sponsor": {
-    "url": "https://github.com/sponsors/BeardedBear"
-  },
-  "icon": "icon.png",
-  "categories": [
-    "Other",
-    "Themes"
-  ],
-  "galleryBanner": {
-    "color": "#182028",
-    "theme": "dark"
-  },
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "bearded-icons",
-        "label": "Bearded Icons",
-        "path": "./icons.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "@types/vscode": "^1.76.0",
-    "node": "^19.6.1",
-    "nodemon": "^2.0.21",
-    "vscode-test": "^1.6.1"
-  },
-  "scripts": {
-    "build": "vite-node src/main.ts",
-    "build:ext": "vsce package --no-yarn",
-    "dev": "vite-node src/main.ts -w",
-    "fix": "prettier --write src/**/*.ts"
-  },
-  "dependencies": {
-    "@types/node": "^18.14.6",
-    "@typescript-eslint/eslint-plugin": "^5.54.0",
-    "@typescript-eslint/parser": "^5.54.0",
-    "eslint": "^8.35.0",
-    "ovsx": "^0.8.0",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5",
-    "vite-node": "^0.29.2",
-    "vsce": "^2.15.0"
-  }
+	"name": "beardedicons",
+	"displayName": "Bearded Icons",
+	"description": "The icons with a long beard.",
+	"publisher": "BeardedBear",
+	"version": "1.9.0",
+	"engines": {
+		"vscode": "^1.77.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BeardedBear/bearded-icons"
+	},
+	"bugs": {
+		"url": "https://github.com/BeardedBear/bearded-icons/issues",
+		"email": "germain.poirrier@gmail.com"
+	},
+	"homepage": "https://github.com/BeardedBear/bearded-icons",
+	"keywords": [
+		"bearded",
+		"icons"
+	],
+	"sponsor": {
+		"url": "https://github.com/sponsors/BeardedBear"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Other",
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#182028",
+		"theme": "dark"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "bearded-icons",
+				"label": "Bearded Icons",
+				"path": "./icons.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.77.0",
+		"node": "^19.8.1",
+		"vscode-test": "^1.6.1"
+	},
+	"scripts": {
+		"build": "vite-node src/main.ts",
+		"build:ext": "vsce package --no-yarn",
+		"dev": "vite-node src/main.ts -w",
+		"fix": "prettier --write src/**/*.ts"
+	},
+	"dependencies": {
+		"@types/node": "^18.15.11",
+		"@typescript-eslint/eslint-plugin": "^5.57.0",
+		"@typescript-eslint/parser": "^5.57.0",
+		"eslint": "^8.37.0",
+		"ovsx": "^0.8.0",
+		"prettier": "^2.8.7",
+		"typescript": "^5.0.3",
+		"vite-node": "^0.29.8",
+		"vsce": "^2.15.0"
+	}
 }

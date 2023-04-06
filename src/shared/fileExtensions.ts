@@ -126,7 +126,7 @@ export default {
   csx: "_f_csharp",
   d: "_f_d",
   dart: "_f_dartlang",
-  db: "_f_db",
+  db: "_f_sqlite",
   db3: "_f_sqlite",
   der: "_f_cert",
   diff: "_f_diff",
@@ -480,4 +480,9 @@ export default {
   zz: "_f_zip",
   deflate: "_f_zip",
   brotli: "_f_brotli",
+  kra: "_f_krita",
+  mgcb: "_f_mgcb",
+  anim: "_f_anim",
+  "cy.ts": "_f_cypressts",
+  "cy.js": "_f_cypressjs",
 };

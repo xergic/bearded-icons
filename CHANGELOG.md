@@ -1,5 +1,35 @@
 # Changelog for Bearded Icons
 
+## 1.9.0 - 2023-04-05
+
+- Revert vite icon
+- Fix db file icon
+- Rework civet icon
+- Add dsstore icon
+- Add icon for cypress ts/js files
+
+## 1.8.0 - 2023-04-04
+
+- Add mgcb icon
+- Add anim icon
+
+## 1.7.0 - 2023-04-03
+
+- Fix .yarn.installed icon
+- Add Krita icon
+- Improve Vite icon readibility
+- Improve video icons
+- Improve vitest icon
+- Improve images icons
+- Add Taze icon
+- Add Turbo icon
+- Add unocss icon
+- Add Atomizer icon
+- Add Esbuild icon
+- Add tox icon
+- Add Mix icons
+- Update Netlify icon
+
 ## 1.6.0 - 2023-03-12
 
 - Add TerraFile icon

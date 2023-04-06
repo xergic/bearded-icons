@@ -375,6 +375,8 @@ const icons = {
   ...icon("mesh"),
   ...icon("gbl"),
   ...icon("cypress"),
+  ...icon("cypressts"),
+  ...icon("cypressjs"),
   ...icon("playright"),
   ...icon("vitest"),
   ...icon("vitest"),
@@ -426,6 +428,19 @@ const icons = {
   ...icon("pfx"),
   ...icon("brotli"),
   ...icon("hardhat"),
+  ...icon("azure"),
+  ...icon("krita"),
+  ...icon("taze"),
+  ...icon("turbo"),
+  ...icon("unocss"),
+  ...icon("atomizer"),
+  ...icon("esbuild"),
+  ...icon("tox"),
+  ...icon("mix"),
+  ...icon("mixlock"),
+  ...icon("mgcb"),
+  ...icon("anim"),
+  ...icon("dsstore"),
 };
 
 export default icons;
