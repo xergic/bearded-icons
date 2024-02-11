@@ -3,7 +3,7 @@
   "displayName": "Bearded Icons with Colored Folders",
   "description": "The icons with a long beard.",
   "publisher": "xergic",
-  "version": "1.9.1",
+  "version": "1.16.0",
   "engines": {
     "vscode": "^1.77.0"
   },
